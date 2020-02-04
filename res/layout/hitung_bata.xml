@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_scnd_2" >
+
+        <AbsoluteLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="70dp" >
+
+        <RadioButton
+            android:id="@+id/rbBatako"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batako"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/rbBata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bata Merah"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/rbHebel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hebel"
+            android:textColor="#000" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_x="8dp"
+        android:layout_y="49dp"
+        android:text="Jenis Bata"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="227dp"
+        android:text="Bangunan(cm) :"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/EditTextPanjang"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="256dp"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_x="14dp"
+        android:layout_y="264dp"
+        android:text="Panjang"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/EditTextLebar"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="93dp"
+        android:layout_y="305dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="316dp"
+        android:text="Lebar"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_x="91dp"
+        android:layout_y="14dp"
+        android:text="Hitung Bata"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="369dp"
+        android:text="Tinggi"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/EditTextTinggi"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="352dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="411dp"
+        android:text="Harga /biji"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="93dp"
+        android:layout_y="413dp"
+        android:text="Rp."
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/EditTextHarga"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="403dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonHitung"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_x="232dp"
+        android:layout_y="440dp"
+        android:text="Hitung" />
+		
+		</AbsoluteLayout>		
+</ScrollView>

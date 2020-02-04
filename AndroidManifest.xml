@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hitung"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".HitungBahanBangunanActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FormBata"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FormBata" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FormPlavon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FormPlavon" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FormUbin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.FormUbin" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Hasil"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Hasil" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
